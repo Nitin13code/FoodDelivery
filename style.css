@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar ::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 50px;
+    margin: 3px 6px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('./background.jpg') no-repeat center center/cover;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .9rem;
+}
+
+.h-primary-cantre {
+    font-size: 50px;
+}
+
+#services-container {
+    text-align: center;
+    font-size: 20px;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+
+}
+
+#services .box {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 2px 5px;
+    border-radius: 28px;
+    background-color: rgb(255, 210, 158);
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+#services .box p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+.centre {
+    text-align: center;
+}
+#contact-box{ 
+    text-align: center; 
+    content: "";
+    background: url('./contact.jpg') no-repeat center center/cover;
+    width: 50%;
+    z-index: -1;
+    opacity: 0.89;
+    border-radius: 15px;
+    margin-left: 25%;
+}
+.form-group{
+    padding: 3px 20px;
+    margin: 5px;
+    color: rgb(21, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 10px;
+}
+#contact h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.btn{
+    font-size: 19px;
+    padding: 2px 6px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 134, 236);
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(142, 234, 84);
+}
+.h-primary{
+    font-size: 26px;
+}
